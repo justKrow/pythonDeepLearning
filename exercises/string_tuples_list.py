@@ -6,7 +6,7 @@ print(list(test_string))
 print(test_string.split())
 
 # list to string
-print(''.join(['one', 'two', 'three']))
+print(' '.join(['one', 'two', 'three']))
 print(str(test_list))
 
 # indexing a string

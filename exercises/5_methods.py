@@ -6,5 +6,6 @@ print(test)
 
 # print(dir(username))
 
-# exercise_string = 'I like puppies puppies puppies puppies'.replace('puppies','kittens',2)
-# print(exercise_string)
+exercise_string = 'I like puppies puppies puppies puppies'.replace(
+    'puppies', 'kittens', 2)
+print(exercise_string)

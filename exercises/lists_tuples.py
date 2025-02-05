@@ -1,4 +1,3 @@
-# list
 my_list = [1, 2, 3, 4.5, 'word']
 print(len(my_list))
 my_list.append(10)
@@ -20,3 +19,11 @@ print(my_tuple[5][2])
 # get the word / string 'hello :)'
 exercise_list = ['first entry', [123, 456, [0, 'hello :)']], 'bye']
 print(exercise_list[1][2][1])
+
+fruits = ['apple', 'orange', 'grape']
+fruits.insert(0, 'strawberry')
+print(fruits)
+fruits.remove('apple')
+print(fruits)
+fruits.pop()
+print(fruits)
